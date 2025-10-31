@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio | Vinicius Lourenço</title>
+
+  <!-- Importa o arquivo CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Botão que alterna entre tema claro/escuro -->
+  <div class="trilho" id="trilho">
+    <div class="indicador"></div> <!-- Indicador que se move no botão -->
+  </div>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="titulo">Portfólio</div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+
+    <!-- Seção do perfil: foto + descrição -->
+    <section class="perfil">
+
+      <!-- Foto do perfil -->
+      <div class="perfil-foto">
+        <img src="imagens/jinwoo.jpeg" alt="Foto de perfil">
+      </div>
+
+      <!-- Informações e apresentação -->
+      <div class="perfil-info">
+        <h2>Vinicius Lourenço</h2>
+        <p>Desenvolvedor Front-End | Estudante de ADS</p>
+
+        <!-- Texto sobre você -->
+        <p class="descricao">
+          Apaixonado por tecnologia e desenvolvimento web. Crio interfaces modernas, responsivas e funcionais utilizando HTML, CSS e JavaScript. Busco minha primeira oportunidade como Dev Front-end e continuo evoluindo minhas habilidades diariamente.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seção habilidades -->
+    <section class="texto">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>HTML5, CSS3 e JavaScript ES6+</li>
+        <li>Boas práticas de UI/UX e web responsiva</li>
+        <li>Git e GitHub</li>
+        <li>Manipulação do DOM e eventos</li>
+        <li>Conhecimento básico em React e Node.js</li>
+        <li>VSCode, Figma, GitHub Pages</li>
+      </ul>
+    </section>
+
+    <!-- Seção objetivos -->
+    <section class="texto">
+      <h2>Objetivos</h2>
+      <ul>
+        <li>Atuar como desenvolvedor front-end júnior/estagiário</li>
+        <li>Aprimorar conhecimento em frameworks</li>
+        <li>Participar de equipes e projetos reais</li>
+      </ul>
+    </section>
+
+    <!-- Barra lateral com stacks -->
+    <aside class="sidebar">
+      <h2>Stacks e Ferramentas</h2>
+      <p>HTML5</p>
+      <p>CSS3 (Flexbox & Grid)</p>
+      <p>JavaScript</p>
+      <p>Git & GitHub</p>
+      <p>VSCode</p>
+      <p>Figma</p>
+    </aside>
+
+  </main>
+
+  <!-- Rodapé com contatos -->
+  <footer class="rodape">
+    <p>&copy; 2025 Vinicius Lourenço — Todos os direitos reservados.</p>
+
+    <nav>
+      <a href="https://github.com/nokkxn" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/vinicius-lourenço-935239248" target="_blank">LinkedIn</a> |
+      <!-- Tooltip mostra email ao passar o mouse -->
+      <a href="mailto:vinicius.lourenco.916@gmail.com" class="tooltip">
+        E-mail
+        <span class="tooltip-text">vinicius.lourenco.916@gmail.com</span>
+      </a>
+    </nav>
+  </footer>
+
+  <!-- Importa o JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

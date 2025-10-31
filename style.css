@@ -1,0 +1,140 @@
+/* Importa fonte */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+/* Estilo geral da página */
+body {
+  font-family: 'Fira Code', monospace;
+  background: #000;
+  color: #ccc;
+  margin: 0;
+  padding: 20px;
+  transition: .5s; /* animação no tema */
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+}
+.titulo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Conteúdo central */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Box do perfil */
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Foto arredondada */
+.perfil-foto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Texto do perfil */
+.descricao {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+/* Caixas de conteúdo */
+.texto, .sidebar {
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Links do rodapé */
+.rodape a {
+  color: #ccc;
+}
+
+/* Tema claro */
+body.dark {
+  background: #fff;
+  color: #111;
+}
+body.dark .rodape a {
+  color: #111;
+}
+
+/* Botão de tema */
+.trilho {
+  width: 50px;
+  height: 25px;
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  border-radius: 150px;
+  background: #333;
+  cursor: pointer;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.7);
+}
+.indicador {
+  width: 25px;
+  height: 25px;
+  border-radius: 120px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  transition: .5s;
+}
+.trilho.dark {
+  background: #777;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 1);
+}
+.trilho.dark .indicador {
+  left: 24px;
+  background: #000000;
+}
+
+/* Tooltip */
+.tooltip { position: relative; }
+.tooltip-text {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  background: #333;
+  padding: 6px 10px;
+  border-radius: 5px;
+  bottom: 120%;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Modo celular */
+@media (max-width: 600px) {
+  .perfil {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .perfil-foto img {
+    width: 140px;
+    height: 140px;
+  }
+}
