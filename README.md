@@ -32,7 +32,7 @@ Meu objetivo é conquistar minha primeira oportunidade como desenvolvedor e cont
 
 ## 🌐 Acesse o Portfólio
 🔗 **GitHub Pages:**  
-https://nokkxrn.github.io/Portifolio/
+https://nokkxn.github.io/Portifolio/
 
 ---
 
