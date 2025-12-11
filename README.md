@@ -1,46 +1,32 @@
-# Portfólio — Vinicius Lourenço
+# Portfolio Website
 
-Bem-vindo ao meu portfólio!  
-Aqui apresento minhas habilidades, experiências acadêmicas e projetos relacionados ao desenvolvimento front-end.
+A personal portfolio website built to showcase my work, skills, and projects as a Frontend Developer.
 
----
+## 🚀 Features
+- Responsive design optimized for all devices  
+- Project showcase with clean UI  
+- Sections for About, Skills, and Contact  
+- Smooth animations and modern layout  
+- Easy-to-navigate structure
 
-## 🧑‍💻 Sobre mim
-Sou estudante de **Análise e Desenvolvimento de Sistemas** e desenvolvedor front-end em formação.  
-Tenho experiência na criação de interfaces modernas e responsivas com **HTML**, **CSS** e **JavaScript**, e estou sempre buscando evoluir com novas tecnologias.
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-Meu objetivo é conquistar minha primeira oportunidade como desenvolvedor e contribuir em projetos reais.
+## 📸 Preview
+(Add a screenshot or GIF here if you want)
 
----
+## 🌐 Live Demo
+(Insert your GitHub Pages or Vercel link here)
 
-## 🚀 Tecnologias e Ferramentas
-- HTML5
-- CSS3 (Flexbox & Grid)
-- JavaScript ES6+
-- Git & GitHub
-- Figma
-- VSCode
+## 📂 Projects Included
+- Currency Converter  
+- FocusFlow (Pomodoro Timer)  
+- Digital Clock / Chronometer  
+- And more
 
----
-
-## 🎯 Objetivos
-- Iniciar como **Desenvolvedor Front-end Júnior** ou **Estagiário**
-- Aprofundar conhecimentos em **React** e **Node.js**
-- Participar de projetos colaborativos e aprender em ambiente profissional
-
----
-
-## 🌐 Acesse o Portfólio
-🔗 **GitHub Pages:**  
-https://nokkxn.github.io/Portifolio/
-
----
-
-## 📫 Contato
-- GitHub: https://github.com/nokkxn  
-- LinkedIn: https://www.linkedin.com/in/vinicius-lourenço-935239248  
-- Email: vinicius.lourenco.916@gmail.com
-
----
-
-Obrigado por visitar meu portfólio!
+## 📬 Contact
+Feel free to reach out:
+- LinkedIn: (add your link)
+- Email: (add your email)
